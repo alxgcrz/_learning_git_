@@ -5,7 +5,7 @@
 ### Ayuda sobre un comando
 
 ```sh
-# Abrir el navegador con información sobre un comando: 
+# Abrir el navegador con información sobre un comando 
 $ git command --help
 ```
 
@@ -174,7 +174,7 @@ git commit --date="`date --date='n day ago'`" -am "Mensaje del commit"
 
 #### Cambiar último commit
 
-> :warning: **¡No modificar commits ya publicados!**
+> :warning: **¡No modificar commits ya publicados!** :warning:
 
 ```sh
 git commit -a --amend
@@ -340,7 +340,7 @@ git branch -d <rama>
 
 #### Forzar eliminación de una rama local
 
-> :warning: **¡Se perderán los cambios sin fusionar!**
+> :warning: **¡Se perderán los cambios sin fusionar!** :warning:
 
 ```sh
 git branch -D <branch>
@@ -455,7 +455,7 @@ git merge <rama>
 
 #### Hacer un _rebase_ de tu actual HEAD sobre "rama"
 
-> :warning: **¡No hacer _rebase_ de commits ya publicados!**
+> :warning: **¡No hacer _rebase_ de commits ya publicados!** :warning:
 
 ```sh
 git rebase <rama>
@@ -666,10 +666,22 @@ gh repo list
 
 ---
 
-## Referencias
+## Enlaces
 
-- <https://git-scm.com/docs>
-- <https://git-scm.com/book/es/v2>
+### Git
+
+- 🔸 [Git](https://git-scm.com/)
+- [JitPack - Publish your JVM and Android libraries](https://jitpack.io/)
+- [Take GitHub to the command line](https://cli.github.com/)
+- [GitHub Actions](https://github.com/features/actions)
+- [Creating a Killer GitHub Profile README](https://dev.to/dailydotdev/creating-a-killer-github-profile-readme-part-1-33nm)
+- [Beautify your GitHub Profile](https://dev.to/philiphaines/beautify-your-github-40hh)
+- [Keeping Git Commit Messages Consistent with a Custom Template](https://dev.to/timmybytes/keeping-git-commit-messages-consistent-with-a-custom-template-1jkm)
+
+### Git - Learn
+
+- <https://github.com/git-tips/tips>
+- 📑 <https://github.com/arslanbilal/git-cheat-sheet>
 - <https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf>
 - <http://ndpsoftware.com/git-cheatsheet.html>
 - <http://ohshitgit.com>
@@ -678,6 +690,23 @@ gh repo list
 - <https://codewords.recurse.com/issues/two/git-from-the-inside-out>
 - <https://cli.github.com/>
 - <https://udacity.github.io/git-styleguide/>
+- 🎓 [Documentación de GitHub](https://docs.github.com/es)
+- 🎓 [Training GitHub](https://training.github.com/)
+- 🎓 [Get started with GitHub documentation](https://docs.github.com/en/get-started)
+- 🎓 [Git Tutorials and Training | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
+- 🎓 [Git and GitHub: The Complete Guides](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-1-23cp)
+- 🇪🇸⭐📑 [Tips: Más de 100 comandos para GitHub / Git que deberías conocer | Desde Linux](http://blog.desdelinux.net/tips-mas-de-40berias-conocer/)
+- 📑 [First Aid git](http://firstaidgit.io/#/)
+- 🇪🇸📑 [git-flow cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/index.es_ES.html)
+- 🇪🇸📑 [Git: Mini Tutorial y chuleta de comandos](http://elbauldelprogramador.com/mini-tutorial-y-chuleta-de-comandos-git/)
+- 🇪🇸⭐ [Una guía para programadores usando git acerca de qué hacer cuando las cosas van mal](https://github.com/k88hudson/git-flight-rules/blob/master/README_es.md)
+- 🎓 [A Hacker’s Guide to Git | Wildly Inaccurate](http://wildlyinaccurate.com/a-hackers-guide-to-git/)
+
+### Git - Books
+
+- 🇪🇸📕 [Git - Book](https://git-scm.com/book/es/v2)
+- 🇪🇸📕 [Pro Git, el libro oficial de Git](https://uniwebsidad.com/libros/pro-git)
+- 📕 <https://goalkicker.com/GitBook/>
 
 ## Licencia
 
