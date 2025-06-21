@@ -6,10 +6,13 @@
 
 ```sh
 # Abrir el navegador con información sobre un comando 
-$ git command --help
+$ git {command} --help
 ```
 
 ### Configuración
+
+- [8.1 Customizing Git - Git Configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+- [git-config - Get and set repository or global options](https://git-scm.com/docs/git-config)
 
 #### Mostrar la cofiguración actual
 
@@ -212,21 +215,10 @@ git stash apply
 git stash drop
 ```
 
-### Buscar
-
-#### Un texto en todos los archivos del directorio
-
-```sh
-git grep "Hola"
-```
-
-#### Un texto en cualquier versión
-
-```sh
-git grep "Hola" v2.5
-```
-
 ### Historial de Commits
+
+- [Git Basics - Viewing the Commit History](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
+- [git-log - Show commit logs](https://git-scm.com/docs/git-log)
 
 #### Mostrar todos los commits, empezando por los más recientes (se mostrará el hash, información sobre el autor, fecha y título del commit)
 
@@ -256,12 +248,6 @@ git log -p <archivo>
 
 ```sh
 git log --oneline <origin/master>..<remote/master> --left-right
-```
-
-#### Quién cambió, qué y cuándo en 'archivo'
-
-```sh
-git blame <archivo>
 ```
 
 #### Mostrar reference log
@@ -579,6 +565,32 @@ git reset --keep <commit>
 git rm -r --cached .
 git add .
 git commit -m "remove xyz file"
+```
+
+### Debugging
+
+- [Debugging with Git](https://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git)
+- [Appendix C: Git Commands - Debugging](https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Debugging)
+- [git-bisect - Use binary search to find the commit that introduced a bug](https://git-scm.com/docs/git-bisect)
+- [git-blame - Show what revision and author last modified each line of a file](https://git-scm.com/docs/git-blame)
+- [git-grep - Print lines matching a pattern](https://git-scm.com/docs/git-grep)
+
+#### Quién cambió, qué y cuándo en 'archivo'
+
+```sh
+git blame <archivo>
+```
+
+#### Buscar un texto en todos los archivos del directorio de trabajo actual
+
+```sh
+git grep "cadena_a_buscar"
+```
+
+#### Buscar un texto en la versión especificada
+
+```sh
+git grep "cadena_a_buscar" v2.5
 ```
 
 ## Extra
